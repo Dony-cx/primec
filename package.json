@@ -1,0 +1,66 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@kagchi/kag-api": "^1.5.5",
+    "anime-scraper": "^3.1.2",
+    "ascii-table": "^0.0.9",
+    "axios": "^0.21.0",
+    "canvas-senpai": "^1.0.0",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.2",
+    "google-tts-api": "^0.0.5",
+    "http": "^0.0.0",
+    "imdb-api": "^4.4.0",
+    "mathjs": "^8.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.13",
+    "node-fetch": "^2.6.1",
+    "node-superfetch": "^0.1.10",
+    "novelcovid": "^3.0.0",
+    "parse-ms": "^2.1.0",
+    "pretty-ms": "^7.0.1",
+    "quick.db": "^7.1.2",
+    "relevant-urban": "^2.0.0",
+    "request-promise-native": "^1.0.9",
+    "snekfetch": "^4.0.4",
+    "superagent": "^6.1.0",
+    "util": "^0.12.3",
+    "vultrex.haste": "^1.0.1",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^4.0.2",
+    "utf-8-validate": "^5.0.2",
+    "discord.js-menu": "^2.2.0",
+    "os": "^0.1.1",
+    "xml2js": "^0.4.23",
+    "request": "^2.88.2",
+    "canvas-constructor": "^4.1.0",
+    "canvas": "^2.6.1",
+    "utils": "^0.3.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {},
+  "author": "Achid EX"
+}
