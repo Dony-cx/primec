@@ -1,0 +1,31 @@
+module.exports = {
+  name: "test",
+  category: "",
+  usage: "",
+  aliases: [],
+  run: async (client, message, args) => {
+  
+    }
+  }
+  
+  
+  
+  client.on("guildMemberRemove", async user => {
+  let lcx = db.get(`byechannel_${user.guild.id}`);
+  
+  if (lcx === null) {
+    return;
+  }
+  
+  let data = await canva.welcome(user, { link: "https://static.myfigurecollection.net/upload/pictures/2018/01/09/1898432.jpeg", blur: false, block: false})
+    const attachment = new discord.MessageAttachment(data, "goodbye-image.png");
+    const embed = new discord.MessageEmbed()
+    .setColor("#d3c9c4")
+    .setThumbnail(user.user.displayAvatarURL())
+    .setDescription(`**Goodbye** ${user.user.toString()}
+
+
+**Semoga harimu menyenangkan :):**`)
+    .attachFiles(attachment)
+    client.channels.cache.get(lcx).send(embed)
+});
